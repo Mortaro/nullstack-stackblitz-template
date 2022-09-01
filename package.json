@@ -1,0 +1,14 @@
+{
+  "name": "nullstack-stackblitz-template",
+  "version": "0.0.1",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nullstack": "github:nullstack/nullstack#multi-loader"
+  },
+  "scripts": {
+    "start": "npx nullstack start --loader=babel",
+    "build": "npx nullstack build"
+  }
+}
