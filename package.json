@@ -5,7 +5,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nullstack": "~0.16.4"
+    "nullstack": "~0.16.5"
   },
   "scripts": {
     "start": "npx nullstack start --mode=ssr --loader=babel",

@@ -1,5 +1,6 @@
 import Nullstack from 'nullstack';
 import Logo from 'nullstack/logo';
+import Counter from './Counter';
 import './Home.css';
 
 class Home extends Nullstack {
@@ -33,16 +34,10 @@ class Home extends Nullstack {
               src folder
             </Link>.
           </p>
-          <span>
-            Hint: we have a
-            <Link href="vscode:extension/ChristianMortaro.vscode-nullstack">
-              VS Code Extension
-            </Link>
-          </span>
           <ul>
             <li>
               <Link href="https://nullstack.app/stateless-components">
-                🎉 Create your first component 
+                🎉 Create your first component
               </Link>
             </li>
             <li>
@@ -66,10 +61,11 @@ class Home extends Nullstack {
               </Link>
             </li>
           </ul>
+          <Counter />
         </article>
         <aside>
           <Link href="https://nullstack.app/waifu">
-            <img src="/nulla-chan.webp" alt="Nulla-Chan: Nullstack's official waifu" />
+            <img src="https://raw.githubusercontent.com/Mortaro/nullstack-stackblitz-template/master/public/nulla-chan.webp" alt="Nulla-Chan: Nullstack's official waifu" />
           </Link>
         </aside>
       </section>
