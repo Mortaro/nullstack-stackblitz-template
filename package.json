@@ -5,10 +5,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nullstack": "https://github.com/nullstack/nullstack#multi-loader"
+    "nullstack": "~0.16.4"
   },
   "scripts": {
-    "start": "npx nullstack start --loader=babel",
+    "start": "npx nullstack start --mode=ssr --loader=babel",
     "build": "npx nullstack build"
   }
 }
